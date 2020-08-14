@@ -1,0 +1,6 @@
+framework module LiveBlogFramework {
+  umbrella header "LiveBlogFramework.h"
+
+  export *
+  module * { export * }
+}
