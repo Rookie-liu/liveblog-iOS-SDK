@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LiveBlogFramework.h"
+#import "liveBlogView.h"
 
 FOUNDATION_EXPORT double _24liveblog_iOS_SDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char _24liveblog_iOS_SDKVersionString[];

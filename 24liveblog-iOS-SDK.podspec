@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = '24liveblog-iOS-SDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.5'
   s.summary          = 'Integrate live blog into your iOS client applications .
 '
 
@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+#  s.resource_bundles =  {
+#      'Resources' => '24liveblog-iOS-SDK/Assets/24LiveBlogBundle.bundle'
+#  }
+  s.vendored_frameworks = ['24liveblog-iOS-SDK/Classes/LiveBlogFramework.framework']
   s.source_files = '24liveblog-iOS-SDK/Classes/**/*'
   
   # s.resource_bundles = {
