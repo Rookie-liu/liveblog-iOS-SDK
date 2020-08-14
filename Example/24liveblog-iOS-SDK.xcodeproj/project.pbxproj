@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19644376EAB8F17C49AE816E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19644376EAB8F17C49AE816E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5385A83C63AC718533DCD4A6 /* Pods-24liveblog-iOS-SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK_Tests/Pods-24liveblog-iOS-SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* 24liveblog-iOS-SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24liveblog-iOS-SDK_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,10 +60,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E2843161AB7D2E3918DDFC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8E2843161AB7D2E3918DDFC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9AC08A9EFF59DCC112ED24F1 /* Pods-24liveblog-iOS-SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK_Example.release.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK_Example/Pods-24liveblog-iOS-SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A7D24C6AA44AA4412D448FD9 /* Pods_24liveblog_iOS_SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24liveblog_iOS_SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFF75F05C31A5F3ABB916B76 /* 24liveblog-iOS-SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "24liveblog-iOS-SDK.podspec"; path = "../24liveblog-iOS-SDK.podspec"; sourceTree = "<group>"; };
+		BFF75F05C31A5F3ABB916B76 /* 24liveblog-iOS-SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "24liveblog-iOS-SDK.podspec"; path = "../24liveblog-iOS-SDK.podspec"; sourceTree = "<group>"; };
 		CEBFD78A0C66066F6C5DEA2F /* Pods_24liveblog_iOS_SDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24liveblog_iOS_SDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA6C11C55B5CEF74283AAE8 /* Pods-24liveblog-iOS-SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK_Example/Pods-24liveblog-iOS-SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F4AFA2DD51A99C66D3086A32 /* Pods-24liveblog-iOS-SDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK_Tests/Pods-24liveblog-iOS-SDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				F4AFA2DD51A99C66D3086A32 /* Pods-24liveblog-iOS-SDK_Tests.debug.xcconfig */,
 				5385A83C63AC718533DCD4A6 /* Pods-24liveblog-iOS-SDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Rookie-liu";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3259YVRKR7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,9 +497,11 @@
 			baseConfigurationReference = DDA6C11C55B5CEF74283AAE8 /* Pods-24liveblog-iOS-SDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3259YVRKR7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "24liveblog-iOS-SDK/24liveblog-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "24liveblog-iOS-SDK/24liveblog-iOS-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +515,11 @@
 			baseConfigurationReference = 9AC08A9EFF59DCC112ED24F1 /* Pods-24liveblog-iOS-SDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3259YVRKR7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "24liveblog-iOS-SDK/24liveblog-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "24liveblog-iOS-SDK/24liveblog-iOS-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

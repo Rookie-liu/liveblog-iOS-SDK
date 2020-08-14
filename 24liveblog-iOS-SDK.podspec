@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = '24liveblog-iOS-SDK'
-  s.version          = '0.1.0'
-  s.summary          = 'Integrate live blog into your iOS client applications with speed and efficiency. Our iOS SDK helps you focus on the client's implementation of booting, configuring live blog and sending events.
+  s.version          = '0.1.1'
+  s.summary          = 'Integrate live blog into your iOS client applications .
 '
 
 # This description is used to generate tags and improve search results.
