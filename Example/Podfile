@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target '24liveblog-iOS-SDK_Example' do
+  pod '24liveblog-iOS-SDK', :path => '../'
+
+  target '24liveblog-iOS-SDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
