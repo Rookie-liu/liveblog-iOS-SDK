@@ -1,0 +1,16 @@
+PODS:
+  - 24liveblog-iOS-SDK (0.1.0)
+
+DEPENDENCIES:
+  - 24liveblog-iOS-SDK (from `../`)
+
+EXTERNAL SOURCES:
+  24liveblog-iOS-SDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  24liveblog-iOS-SDK: 28da7fff2e2b63ae0328463de56702e878a3f443
+
+PODFILE CHECKSUM: 274f90c9195fe440a063beef76853c295d62f1e5
+
+COCOAPODS: 1.9.3

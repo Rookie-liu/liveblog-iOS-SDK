@@ -1,0 +1,6 @@
+framework module _24liveblog_iOS_SDK {
+  umbrella header "24liveblog-iOS-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
