@@ -22,20 +22,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSBundle *bundle = [NSBundle bundleForClass:[liveBlogView class]];
-    NSURL *bundleURL = [bundle URLForResource:@"24LiveBlogBundle" withExtension:@"bundle"];
-    NSBundle *resourceBundle = [NSBundle bundleWithURL: bundleURL];
+//    NSBundle *bundle = [NSBundle bundleForClass:[liveBlogView class]];
+//    NSURL *bundleURL = [bundle URLForResource:@"24LiveBlogBundle" withExtension:@"bundle"];
+//    NSBundle *resourceBundle = [NSBundle bundleWithURL: bundleURL];
 
-//    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"24LiveBlogBundle" ofType:@"bundle"];
-//    NSBundle *resourceBundle = [NSBundle bundleWithPath:bundlePath];
-    UINib *nib = [UINib nibWithNibName:@"liveBlogView" bundle:resourceBundle];
-    NSArray *nibView = [nib instantiateWithOwner:nil options:nil];;
-    liveBlogView *liveBlogView = [nibView firstObject];
+    self.view.backgroundColor = UIColor.blueColor;
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"24LiveBlogBundle" ofType:@"bundle"];
+    UINib *nib = [UINib nibWithNibName:@"liveBlogView" bundle:[NSBundle bundleWithPath:bundlePath]];
+    liveBlogView *liveBlogView = [[nib instantiateWithOwner:nil options:nil] firstObject];
     liveBlogView.frame = CGRectMake(0, 64,kScreenWidth, kScreenHeight - 64);
-    liveBlogView.backgroundColor = UIColor.redColor;
-    //    liveBlogView.eid = @"2543413238579673411";  // ssss
-    liveBlogView.eid = @"2586199732563404427";  // test action
-
+    liveBlogView.eid = @"2586199732563404427";
     [self.view addSubview:liveBlogView];
 }
 

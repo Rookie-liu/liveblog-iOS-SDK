@@ -1,5 +1,5 @@
 PODS:
-  - 24liveblog-iOS-SDK (0.1.1):
+  - 24liveblog-iOS-SDK (0.1.5):
     - DateTools (~> 2.0.0)
     - DTCoreText (~> 1.6.21)
     - Masonry (~> 1.1.0)
@@ -98,7 +98,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  24liveblog-iOS-SDK: fb5a165eb56d284b06768ff02f58c0b2938f9c98
+  24liveblog-iOS-SDK: f5beeced886d99ec2d4e607e137f556cf069fbd5
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   DTCoreText: 0298d372ccc137e51f27b3ec1af65fd4af5d173a

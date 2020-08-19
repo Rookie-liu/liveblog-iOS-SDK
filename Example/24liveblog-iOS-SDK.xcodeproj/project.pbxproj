@@ -21,7 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		653D8AC224E691F40093EC45 /* 24LiveBlogBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 653D8AC124E691F40093EC45 /* 24LiveBlogBundle.bundle */; };
+		6586713624ECFC2500DE8881 /* 24LiveBlogBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6586713524ECFC2500DE8881 /* 24LiveBlogBundle.bundle */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A022678B879C772693C03B7F /* Pods_24liveblog_iOS_SDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D24C6AA44AA4412D448FD9 /* Pods_24liveblog_iOS_SDK_Tests.framework */; };
@@ -59,7 +59,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		653D8AC124E691F40093EC45 /* 24LiveBlogBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 24LiveBlogBundle.bundle; sourceTree = "<group>"; };
+		6586713524ECFC2500DE8881 /* 24LiveBlogBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 24LiveBlogBundle.bundle; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E2843161AB7D2E3918DDFC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		6003F593195388D20070C39A /* Example for 24liveblog-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				653D8AC124E691F40093EC45 /* 24LiveBlogBundle.bundle */,
+				6586713524ECFC2500DE8881 /* 24LiveBlogBundle.bundle */,
 				6003F59C195388D20070C39A /* ZCAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -286,7 +286,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				653D8AC224E691F40093EC45 /* 24LiveBlogBundle.bundle in Resources */,
+				6586713624ECFC2500DE8881 /* 24LiveBlogBundle.bundle in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

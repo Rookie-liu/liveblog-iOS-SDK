@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = '24liveblog-iOS-SDK'
-  s.version          = '0.1.5'
+  s.version          = '1.0.1'
   s.summary          = 'Integrate live blog into your iOS client applications .
 '
 
